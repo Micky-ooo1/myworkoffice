@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>📚 My Book Collection</h1>
+        
+        <div class="input-container">
+            <input type="text" id="bookTitle" placeholder="Enter book title">
+            <input type="file" id="bookFile" accept="application/pdf">
+            <button id="addBookButton">Add Book</button>
+        </div>
+
+        <ul id="bookList"></ul>
+        
+
+    </div>
+<script src="password_protect.php"></script>
+    <script src="main.js"></script>
+    <!-- Custom Modal for Password -->
+<div id="passwordModal" class="modal">
+    <div class="modal-content">
+        <h2>⚠️ <span class="highlight">SERVER SAYS</span></h2>
+        <p>Please enter the password to access the page:</p>
+        <input type="password" id="passwordInput">
+        <button id="submitPassword">Submit</button>
+    </div>
+</div>
+</body>
+</html>
